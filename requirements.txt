@@ -1,0 +1,4 @@
+beautifulSoup4
+pandas
+requests
+PyPDF2
