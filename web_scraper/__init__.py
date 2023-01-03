@@ -19,7 +19,7 @@ pdf_link = pdf_link[0].replace('\[', '').replace('\]', '')
 response = requests.get(pdf_link)
 
 # Write content in pdf file
-pdf = open("billa_brochure"  + ".pdf", 'wb')
+pdf = open("billa_brochure" + ".pdf", 'wb')
 pdf.write(response.content)
 pdf.close()
 print("File ", "billa_brochure", " downloaded")
